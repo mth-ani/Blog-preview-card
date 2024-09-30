@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree, sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 520px;
+    border-radius: 20px;
+    max-width: 375px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 8px 8px;
+}
+.blog img {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.elements {
+    padding: 1.2rem;
+    min-width: 375px;
+    line-height: 150%;
+    margin: 0 auto;
+}
+h1 {
+    font-weight: 800;
+    font-size: 24px;
+}
+h1:hover {
+    color: hsl(47, 88%, 63%);
+}
+span {
+    border: 0;
+    max-width: 82px;
+    background-color: hsl(47, 88%, 63%);
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-weight: 800;
+}
+span:hover {
+    cursor: pointer;
+}
+.dec {
+    font-weight: 600;
+    color: hsl(0, 0%, 7%);
+}
+.description {
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+}
+.hooper img {
+    height: 32px;
+    width: 32px;
+}
+.hooper {
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
